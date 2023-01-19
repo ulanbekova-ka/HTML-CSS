@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Lora -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700&subset=cyrillic" rel="stylesheet">
+	<title>Банки Кыргызстана</title>
+</head>
+
+<body>
+	<button onclick="toggleTheme()" style="position: fixed; top:0">Switch Style</button>
+	
+	<button class="nav-button">
+		<svg width="30px" height="30px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="SVGRepoEditor"
+			version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff" stroke-width="0">
+			<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+			<circle cx="5" cy="6" fill="none" id="SVGRepoEditor" r="1" stroke="#ffffff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle>
+			<circle cx="5" cy="16" fill="none" id="SVGRepoEditor" r="1" stroke="#ffffff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle>
+			<circle cx="5" cy="26" fill="none" id="SVGRepoEditor" r="1" stroke="#ffffff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle>
+			<line fill="none" id="SVGRepoEditor" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"
+				stroke-miterlimit="10" stroke-width="2" x1="10" x2="28" y1="6" y2="6"></line>
+			<line fill="none" id="SVGRepoEditor" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"
+				stroke-miterlimit="10" stroke-width="2" x1="10" x2="28" y1="16" y2="16"></line>
+			<line fill="none" id="SVGRepoEditor" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"
+				stroke-miterlimit="10" stroke-width="2" x1="10" x2="28" y1="26" y2="26"></line>
+		</svg>
+	</button>
+
+
+
+	<div class="container">
+
+		<div class="main-logo">
+			<a href="https://banks.kg" class="logo">
+				<img src="https://banks.kg/images/logo.png" alt="logo">
+			</a>
+		</div>
+
+		<div class="navbar">
+			<ul class="navbar-items">
+				<li>
+					<a href="#">Банки</a>
+					<i class="fa fa-chevron-down"></i>
+				</li>
+				<li>
+					<a href="#">Кредиты</a>
+					<i class="fa fa-chevron-down"></i>
+				</li>
+				<li>
+					<a href="#">Вклады</a>
+					<i class="fa fa-chevron-down"></i>
+				</li>
+				<li>
+					<a href="#">Карты</a>
+					<i class="fa fa-chevron-down"></i>
+				</li>
+				<li>
+					<a href="#">Микрокредиты</a>
+				</li>
+				<li>
+					<a href="#" id="greyish">Еще</a>
+					<i class="fa fa-chevron-down"></i>
+				</li>
+			</ul>
+		</div>
+
+		<div class="pipe">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="histogram">
+				<path
+					d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z" />
+			</svg>
+			<a href="#">Курсы валют</a>
+			<i class="fa fa-chevron-down"></i>
+		</div>
+
+		<div class="search">
+			<a href="#" class="search">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+					<path
+						d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" />
+				</svg>
+			</a>
+		</div>
+
+
+
+		<div class="main">
+			<div class="hero-image"></div>
+			<div class="hero-texts">
+				<div class="hero-subtitle">Подберем для вас</div>
+				<div class="hero-title">Выгодные кредиты</div>
+				<p class="hero-body">Заполните единую онлайн-заявку, и мы покажем банки, в которых у вас есть высокая
+					вероятность получить кредит</p>
+				<button href="https://banks.kg/credits" class="hero-button">Подобрать кредит</button>
+			</div>
+
+			<div class="dots">
+				<div class="dot"></div>
+				<div class="dot active"></div>
+				<div class="dot"></div>
+			</div>
+		</div>
+
+
+
+		<div class="categories">
+			<div class="category">
+				<a href="https://banks.kg/credits" class="category-card wallet">
+					<svg fill="#0084f8" width="24px" height="24px" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0">
+						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+						<path fill-rule="evenodd"
+							d="M18,5 L20,5 C21.1045695,5 22,5.8954305 22,7 L22,19 C22,20.1045695 21.1045695,21 20,21 L4,21 C2.8954305,21 2,20.1045695 2,19 L2.02670349,19 C2.00895171,18.8924597 2,18.7835216 2,18.67427 L2,6.75430141 C2,5.86134069 2.59195463,5.07656869 3.45055774,4.83125352 L15.4505577,1.40268209 C16.5126278,1.09923351 17.6195993,1.7142177 17.9230479,2.77628773 C17.9741002,2.95497066 18,3.13989693 18,3.32572998 L18,5 Z M18,7 L18,15.2456986 C18,16.1386593 17.4080454,16.9234313 16.5494423,17.1687465 L10.1400549,19 L20,19 L20,7 L18,7 Z M4,6.75430141 L4,18.67427 L16,15.2456986 L16,3.32572998 L4,6.75430141 Z M18,11 L18,9 L20,9 L20,11 L18,11 Z M13,10 C12.4477153,10 12,9.55228475 12,9 C12,8.44771525 12.4477153,8 13,8 C13.5522847,8 14,8.44771525 14,9 C14,9.55228475 13.5522847,10 13,10 Z">
+						</path>
+					</svg>
+					<div class="category-title">Кредиты</div>
+					<i class="fa fa-chevron-right"></i>
+					<p class="category-body">Оставьте заявку на получение кредита или сравните кредиты банков
+						Кыргызстана</p>
+				</a>
+			</div>
+			<div class="category">
+				<a href="https://banks.kg/deposits" class="category-card strongbox">
+					<svg fill="#0084f8" width="24px" height="24px" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0">
+						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+						<path fill-rule="evenodd"
+							d="M14.0319673,15.4461809 C13.4364541,15.7980706 12.7418086,16 12,16 C11.2581914,16 10.5635459,15.7980706 9.96803265,15.4461809 L7.70710678,17.7071068 L6.29289322,16.2928932 L8.55381909,14.0319673 C8.20192939,13.4364541 8,12.7418086 8,12 C8,11.2581914 8.20192939,10.5635459 8.55381909,9.96803265 L6.29289322,7.70710678 L7.70710678,6.29289322 L9.96803265,8.55381909 C10.5635459,8.20192939 11.2581914,8 12,8 C12.7418086,8 13.4364541,8.20192939 14.0319673,8.55381909 L16.2928932,6.29289322 L17.7071068,7.70710678 L15.4461809,9.96803265 C15.7980706,10.5635459 16,11.2581914 16,12 C16,12.7418086 15.7980706,13.4364541 15.4461809,14.0319673 L17.7071068,16.2928932 L16.2928932,17.7071068 L14.0319673,15.4461809 Z M20,8 L19,8 L19,6 L20,6 L20,4 L4,4 L4,20 L20,20 L20,18 L19,18 L19,16 L20,16 L20,8 Z M5,22 L3.81818182,22 C2.81402773,22 2,21.1045695 2,20 L2,4 C2,2.8954305 2.81402773,2 3.81818182,2 L20.1818182,2 C21.1859723,2 22,2.8954305 22,4 L22,20 C22,21.1045695 21.1859723,22 20.1818182,22 L19,22 L19,23 L17,23 L17,22 L7,22 L7,23 L5,23 L5,22 Z M12,14 C13.1045695,14 14,13.1045695 14,12 C14,10.8954305 13.1045695,10 12,10 C10.8954305,10 10,10.8954305 10,12 C10,13.1045695 10.8954305,14 12,14 Z">
+						</path>
+					</svg>
+					<div class="category-title">Вклады</div>
+					<i class="fa fa-chevron-right"></i>
+					<p class="category-body">Вложите ваши средства по максимально высокой процентной ставке</p>
+				</a>
+			</div>
+			<div class="category">
+				<a href="https://banks.kg/cards" class="category-card credit-card">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="24px" viewBox="0 0 24 24" fill="none"
+						stroke="#0084f8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+						<line x1="1" y1="10" x2="23" y2="10" />
+					</svg>
+					<div class="category-title">Платежные карты</div>
+					<i class="fa fa-chevron-right"></i>
+					<p class="category-body">Подберите оптимальную банковскую карту, которая подойдет именно вам</p>
+				</a>
+			</div>
+		</div>
+
+
+
+		<div class="footer">
+
+			<div class="col1">
+				<a href="https://banks.kg">
+					<img src="https://banks.kg/images/logo.png" alt="logo">
+				</a>
+				<p class="info-text">
+					Актуальная информация по банковским продуктам в Кыргызстане.<br>Курс валют в Бишкеке.
+				</p>
+			</div>
+
+			<div class="col2">
+				<div class="col2-img"></div>
+				<ul>
+					<li><a href="https://banks.kg/about" class="nav-link">О проекте</a></li>
+					<li><a href="https://banks.kg/marketing" class="nav-link">Реклама на сайте</a></li>
+					<li><a href="https://banks.kg/privacy-policy" class="nav-link">Политика конфиденциальности</a></li>
+					<li><a href="https://banks.kg/contacts" class="nav-link">Обратная связь</a></li>
+				</ul>
+			</div>
+
+			<div class="col3">
+				<div class="col3-img"></div>
+				<ul>
+					<li><a href="https://banks.kg/banks-info" class="nav-link">Для банков</a></li>
+					<li><a href="https://banks.kg/clients-info" class="nav-link">Для клиентов</a></li>
+					<li><a href="https://banks.kg/cooperation" class="nav-link">Сотрудничество</a></li>
+					<li><a href="https://banks.kg/rates" class="nav-link">Курсы валют</a></li>
+					<li><a href="https://banks.kg/vacancies" class="nav-link">Вакансии</a></li>
+				</ul>
+			</div>
+
+			<div class="col4">
+				<div class="col4-img"></div>
+				<ul>
+					<li><a href="https://banks.kg/news" class="nav-link">Финансовые новости</a></li>
+					<li><a href="https://banks.kg/useful-articles" class="nav-link">Полезные материалы</a></li>
+					<li><a href="https://banks.kg/faq" class="nav-link">Вопрос-ответ</a></li>
+					<li><a href="https://banks.kg/glossary" class="nav-link">Справочник</a></li>
+				</ul>
+			</div>
+
+			<div class="col5">
+				<div class="col5-img"></div>
+				<div class="green-box">
+					<div>
+						<a href="http://www.net.kg/stat.php?id=6690&amp;fromsite=6690">
+							<img src="//www.net.kg/img.php?id=6690&amp;refer=&amp;page=https%3A//banks.kg/&amp;c=yes&amp;java=now&amp;razresh=1536x864&amp;cvet=24&amp;jscript=1.3&amp;rand=0.24417592069304517"
+								alt="Net.kg counter">
+						</a>
+					</div>
+				</div>
+
+				<div class="telegram-icon">
+					<a href="https://t.me/Banks_KG">
+						<svg fill="#c2c9cf" width="26px" height="26px" viewBox="0 0 32 32"
+							xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0">
+							<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+							<path
+								d="M29.919 6.163l-4.225 19.925c-0.319 1.406-1.15 1.756-2.331 1.094l-6.438-4.744-3.106 2.988c-0.344 0.344-0.631 0.631-1.294 0.631l0.463-6.556 11.931-10.781c0.519-0.462-0.113-0.719-0.806-0.256l-14.75 9.288-6.35-1.988c-1.381-0.431-1.406-1.381 0.288-2.044l24.837-9.569c1.15-0.431 2.156 0.256 1.781 2.013z">
+							</path>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="copyright">
+			<p>©2022 Banks.kg Все права защищены.</p>
+			<p>Проект создан и поддерживается командой <a href="https://intelliants.com/">Intelliants</a></p>
+		</div>
+
+
+
+		<div class="background-image"></div>
+
+	</div>
+
+							
+
+	<script>
+		const navButton = document.querySelector('.nav-button')
+		const navbar = document.querySelector('.navbar')
+		navButton.addEventListener('click', () => {
+			navButton.classList.toggle("mobile-nav")
+			navbar.classList.toggle("mobile-nav")
+		})
+	</script>
+
+	<script>
+		function toggleTheme() {
+			var theme = document.getElementsByTagName('link')[0];
+			if (theme.getAttribute('href') == 'style.css') {
+				theme.setAttribute('href', 'style2.css');
+			} else {
+				theme.setAttribute('href', 'style.css');
+			}
+		}
+	</script>
+				
+</body>
+
+</html>
